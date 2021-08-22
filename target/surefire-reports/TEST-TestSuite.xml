@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="108.755" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="48.58" tests="18" errors="0" skipped="13" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -64,12 +64,88 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="errorValidationOfContactPage" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="16.275"/>
-  <testcase name="verifySubmissionOfFeedBackMsg" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="5.106"/>
-  <testcase name="verifySubmissionOfFeedBackMsg" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="2.646"/>
-  <testcase name="verifySubmissionOfFeedBackMsg" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="13.396"/>
-  <testcase name="verifySubmissionOfFeedBackMsg" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="2.891"/>
-  <testcase name="verifySubmissionOfFeedBackMsg" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="5.635"/>
-  <testcase name="verificationOfItemsInCart" classname="com.planittesting.cloud.jupiter.testcases.ShopPageTestCases" time="2.042"/>
-  <testcase name="verificationOfProductUnitPriceSubtotalPriceAndTotalPrice" classname="com.planittesting.cloud.jupiter.testcases.ShopPageTestCases" time="3.421"/>
+  <testcase name="errorValidationOfContactPage" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="15.318"/>
+  <testcase name="verifySubmissionOfFeedBackMsg" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="11.631"/>
+  <testcase name="verifySubmissionOfFeedBackMsg" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="1.921"/>
+  <testcase name="verifySubmissionOfFeedBackMsg" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=92.0.4515.159)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;IGSA937002-PC&apos;, ip: &apos;192.168.20.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\IGSA937002\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a15825dd442506ba9453e7d05e207e86"/>
+  </testcase>
+  <testcase name="verifySubmissionOfFeedBackMsg" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=92.0.4515.159)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;IGSA937002-PC&apos;, ip: &apos;192.168.20.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\IGSA937002\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a15825dd442506ba9453e7d05e207e86"/>
+  </testcase>
+  <testcase name="verifySubmissionOfFeedBackMsg" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=92.0.4515.159)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;IGSA937002-PC&apos;, ip: &apos;192.168.20.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\IGSA937002\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a15825dd442506ba9453e7d05e207e86"/>
+  </testcase>
+  <testcase name="setUp" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="4.462">
+    <failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=92.0.4515.159)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;IGSA937002-PC&apos;, ip: &apos;192.168.20.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\IGSA937002\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a15825dd442506ba9453e7d05e207e86" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IGSA937002-PC', ip: '192.168.20.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\IGSA937002\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a15825dd442506ba9453e7d05e207e86
+	at com.planittesting.cloud.jupiter.testcases.ContactPageTestcases.setUp(ContactPageTestcases.java:18)
+</failure>
+    <system-out><![CDATA[C:\Users\IGSA937002\eclipse-workspace\jupiter-toysnull
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 14418
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 23, 2021 12:09:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.planittesting.cloud.jupiter.testcases.ShopPageTestCases" time="2.109">
+    <failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=92.0.4515.159)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;IGSA937002-PC&apos;, ip: &apos;192.168.20.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\IGSA937002\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f2c1e7aa0593751bc745b059f68977cb" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IGSA937002-PC', ip: '192.168.20.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\IGSA937002\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f2c1e7aa0593751bc745b059f68977cb
+	at com.planittesting.cloud.jupiter.testcases.ShopPageTestCases.setUp(ShopPageTestCases.java:17)
+</failure>
+    <system-out><![CDATA[C:\Users\IGSA937002\eclipse-workspace\jupiter-toysnull
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 14507
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 23, 2021 12:09:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.planittesting.cloud.jupiter.testcases.ShopPageTestCases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verificationOfItemsInCart" classname="com.planittesting.cloud.jupiter.testcases.ShopPageTestCases" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=92.0.4515.159)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;IGSA937002-PC&apos;, ip: &apos;192.168.20.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\IGSA937002\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f2c1e7aa0593751bc745b059f68977cb"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.planittesting.cloud.jupiter.testcases.ShopPageTestCases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.planittesting.cloud.jupiter.testcases.ShopPageTestCases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verificationOfProductUnitPriceSubtotalPriceAndTotalPrice" classname="com.planittesting.cloud.jupiter.testcases.ShopPageTestCases" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=92.0.4515.159)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;IGSA937002-PC&apos;, ip: &apos;192.168.20.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\IGSA937002\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f2c1e7aa0593751bc745b059f68977cb"/>
+  </testcase>
 </testsuite>
