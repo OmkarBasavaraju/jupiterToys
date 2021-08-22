@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="102709" started-at="2021-08-22T16:54:22 AEST" finished-at="2021-08-22T16:56:04 AEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="102709" started-at="2021-08-22T16:54:22 AEST" finished-at="2021-08-22T16:56:04 AEST">
+      <class name="com.planittesting.cloud.jupiter.testcases.ContactPageTestcases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="setUp" is-config="true" duration-ms="7127" started-at="2021-08-22T16:54:22 AEST" finished-at="2021-08-22T16:54:29 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="errorValidationOfContactPage()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="errorValidationOfContactPage" duration-ms="16292" started-at="2021-08-22T16:54:29 AEST" finished-at="2021-08-22T16:54:45 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidationOfContactPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="tearDown" is-config="true" duration-ms="964" started-at="2021-08-22T16:54:45 AEST" finished-at="2021-08-22T16:54:46 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="setUp" is-config="true" duration-ms="4821" started-at="2021-08-22T16:54:46 AEST" finished-at="2021-08-22T16:54:51 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySubmissionOfFeedBackMsg(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="verifySubmissionOfFeedBackMsg" duration-ms="5103" started-at="2021-08-22T16:54:51 AEST" data-provider="dp" finished-at="2021-08-22T16:54:56 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestOne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestOne@planit.net.au]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good customer experience]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmissionOfFeedBackMsg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="tearDown" is-config="true" duration-ms="969" started-at="2021-08-22T16:54:56 AEST" finished-at="2021-08-22T16:54:57 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="setUp" is-config="true" duration-ms="4969" started-at="2021-08-22T16:54:57 AEST" finished-at="2021-08-22T16:55:02 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySubmissionOfFeedBackMsg(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="verifySubmissionOfFeedBackMsg" duration-ms="2646" started-at="2021-08-22T16:55:02 AEST" data-provider="dp" finished-at="2021-08-22T16:55:05 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestTwo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestTwo@planit.net.au]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nice service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmissionOfFeedBackMsg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="tearDown" is-config="true" duration-ms="898" started-at="2021-08-22T16:55:05 AEST" finished-at="2021-08-22T16:55:06 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="setUp" is-config="true" duration-ms="4985" started-at="2021-08-22T16:55:06 AEST" finished-at="2021-08-22T16:55:11 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySubmissionOfFeedBackMsg(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="verifySubmissionOfFeedBackMsg" duration-ms="13396" started-at="2021-08-22T16:55:11 AEST" data-provider="dp" finished-at="2021-08-22T16:55:24 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestThree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestThree@planit.net.au]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nice service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmissionOfFeedBackMsg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="tearDown" is-config="true" duration-ms="961" started-at="2021-08-22T16:55:24 AEST" finished-at="2021-08-22T16:55:25 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="setUp" is-config="true" duration-ms="4981" started-at="2021-08-22T16:55:25 AEST" finished-at="2021-08-22T16:55:30 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySubmissionOfFeedBackMsg(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="verifySubmissionOfFeedBackMsg" duration-ms="2891" started-at="2021-08-22T16:55:30 AEST" data-provider="dp" finished-at="2021-08-22T16:55:33 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFour]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestFour@planit.net.au]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good customer experience]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmissionOfFeedBackMsg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="tearDown" is-config="true" duration-ms="1136" started-at="2021-08-22T16:55:33 AEST" finished-at="2021-08-22T16:55:34 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="setUp" is-config="true" duration-ms="5917" started-at="2021-08-22T16:55:34 AEST" finished-at="2021-08-22T16:55:40 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySubmissionOfFeedBackMsg(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="verifySubmissionOfFeedBackMsg" duration-ms="5634" started-at="2021-08-22T16:55:40 AEST" data-provider="dp" finished-at="2021-08-22T16:55:46 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFive]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestFive@planit.net.au]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Satisfactory]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmissionOfFeedBackMsg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ContactPageTestcases@797b0699]" name="tearDown" is-config="true" duration-ms="1080" started-at="2021-08-22T16:55:46 AEST" finished-at="2021-08-22T16:55:47 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.planittesting.cloud.jupiter.testcases.ContactPageTestcases -->
+      <class name="com.planittesting.cloud.jupiter.testcases.ShopPageTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ShopPageTestCases@2a3888c1]" name="setUp" is-config="true" duration-ms="5002" started-at="2021-08-22T16:55:47 AEST" finished-at="2021-08-22T16:55:52 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verificationOfItemsInCart()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ShopPageTestCases@2a3888c1]" name="verificationOfItemsInCart" duration-ms="2042" started-at="2021-08-22T16:55:52 AEST" finished-at="2021-08-22T16:55:54 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfItemsInCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ShopPageTestCases@2a3888c1]" name="tearDown" is-config="true" duration-ms="968" started-at="2021-08-22T16:55:54 AEST" finished-at="2021-08-22T16:55:55 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ShopPageTestCases@2a3888c1]" name="setUp" is-config="true" duration-ms="5406" started-at="2021-08-22T16:55:55 AEST" finished-at="2021-08-22T16:56:00 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verificationOfProductUnitPriceSubtotalPriceAndTotalPrice()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ShopPageTestCases@2a3888c1]" name="verificationOfProductUnitPriceSubtotalPriceAndTotalPrice" duration-ms="3421" started-at="2021-08-22T16:56:00 AEST" finished-at="2021-08-22T16:56:04 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfProductUnitPriceSubtotalPriceAndTotalPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.planittesting.cloud.jupiter.testcases.ShopPageTestCases@2a3888c1]" name="tearDown" is-config="true" duration-ms="932" started-at="2021-08-22T16:56:04 AEST" finished-at="2021-08-22T16:56:04 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.planittesting.cloud.jupiter.testcases.ShopPageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
